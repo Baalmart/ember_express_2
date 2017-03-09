@@ -1,0 +1,7 @@
+<form class="form-signin" role="form" {{action 'authenticate' on='submit'}}>
+  <h2 class="form-signin-heading">Please sign in</h2>
+  {{input value=identification placeholder='Email address'  type='email'    class='form-control'}}
+  {{input value=password       placeholder='Enter Password' type='password' class='form-control'}}
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+</form>
+
